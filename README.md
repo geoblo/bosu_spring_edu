@@ -12,6 +12,7 @@ build.gradle의 dependencies에 추가
 developmentOnly 'org.springframework.boot:spring-boot-devtools'
 
 
+
 타임리프 자동 재시작 설정
 
 application.properties
