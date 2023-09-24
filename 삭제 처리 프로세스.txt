@@ -1,0 +1,17 @@
+삭제 처리 프로세스
+html - detail.html
+   delete?m_code=1
+
+Controller class method
+       Mapping uri - detele
+       parameter - Integer m_code
+  
+Service class method
+       parameter - Integer m_code
+
+Dao interface method
+       parameter - Integer m_code
+
+Mapper 
+       parameterType - Integer
+       SQL - DELETE FROM movietbl WHERE m_code=#{m_code}       
