@@ -3,10 +3,10 @@ html - detail.html
        delete?m_code=1
 Controller class method
        Mapping uri - detele
-       parameter - Integer m_code
+       parameter - Integer m_code, RedirectAttribute
   	Service method call
 Service class method
-       parameter - Integer m_code
+       parameter - Integer m_code, RedirectAttribute
 	Dao method call
 	삭제 성공 시 view = "redirect:/?pageNum=1"
 		    msg = "삭제 성공"
