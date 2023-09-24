@@ -1,17 +1,19 @@
 삭제 처리 프로세스
 html - detail.html
-   delete?m_code=1
-
+       delete?m_code=1
 Controller class method
        Mapping uri - detele
        parameter - Integer m_code
-  
+  	Service method call
 Service class method
        parameter - Integer m_code
-
+	Dao method call
+	삭제 성공 시 view = "redirect:/?pageNum=1"
+		    msg = "삭제 성공"
+	삭제 실패 시 view = "redirect:detail?m_code="+m_code
+		    msg = "삭제 실패"
 Dao interface method
        parameter - Integer m_code
-
 Mapper 
        parameterType - Integer
        SQL - DELETE FROM movietbl WHERE m_code=#{m_code}       
