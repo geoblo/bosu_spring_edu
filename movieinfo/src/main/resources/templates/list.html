@@ -18,7 +18,7 @@
 </head>
 <body>
 <div class="wrap">
-    <th:block th:insert="~{header.html}"></th:block>
+    <th:block th:insert="~{fragments::header('영화정보 사이트')}"></th:block>
     <div class="content">
         <div class="list-title">
             <h2 class="form-header">영화 목록</h2>
@@ -60,7 +60,7 @@
             <div class="paging" th:utext="${paging}"></div>
         </div>
     </div>
-    <th:block th:insert="~{footer.html}"></th:block>
+    <th:block th:insert="~{fragments::footer}"></th:block>
 </div>
 </body>
 </html>

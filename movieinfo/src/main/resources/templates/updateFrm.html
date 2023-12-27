@@ -17,7 +17,7 @@
 </head>
 <body>
 <div class="wrap">
-	<th:block th:insert="~{header.html}"></th:block>
+	<th:block th:insert="~{fragments::header('영화정보 사이트')}"></th:block>
 	<div class="content">
 		<form th:action="@{updateProc}" method="post"
 			  enctype="multipart/form-data">
@@ -75,7 +75,7 @@
 			</div>
 		</form>
 	</div>
-	<th:block th:insert="~{footer.html}"></th:block>
+	<th:block th:insert="~{fragments::footer}"></th:block>
 </div>
 </body>
 <script th:inline="javascript">
