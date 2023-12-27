@@ -79,21 +79,21 @@
   $("#backbtn").click(function () {
     let pn = [[${session.pageNum}]];
     if(pn != null){
-      location.href = "/?pageNum=" + pn;
+      location.href = `/?pageNum=${pn}`;
     } else {
       location.href = "/?pageNum=1";
     }
   });
 
   $("#upbtn").click(function () {
-     location.href = "updateFrm?m_code=" + [[${movie.m_code}]];
+     location.href = `updateFrm?m_code=[[${movie.m_code}]]`;
   });
 
   //게시글 삭제
   $("#delbtn").click(function () {
     let conf = confirm("삭제할까요?");
     if(conf){
-      location.href = "delete?m_code=" + [[${movie.m_code}]];
+      location.href = `delete?m_code=[[${movie.m_code}]]`;
     }
   });
 </script>

@@ -80,7 +80,7 @@
 </body>
 <script th:inline="javascript">
 	$("#backbtn").click(function () {
-		location.href = "detail?m_code=" + [[${movie.m_code}]];
+		location.href = `detail?m_code=[[${movie.m_code}]]`;
 	});
 
 	//파일 업로드 시 선택한 파일명 출력

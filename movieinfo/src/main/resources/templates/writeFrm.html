@@ -78,7 +78,7 @@
     $("#backbtn").click(function () {
         let pn = [[${session.pageNum}]];
         if(pn != null){
-            location.href = "/?pageNum=" + pn;
+            location.href = `/?pageNum=${pn}`;
         } else {
             location.href = "/?pageNum=1";
         }
