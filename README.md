@@ -19,4 +19,3 @@ spring.thymeleaf.prefix=file:src/main/resources/templates/
 spring.thymeleaf.suffix=.html
 ```
 
-# 완성된 예제 폴더에 movieinfo 프로젝트를 올려놨습니다.
