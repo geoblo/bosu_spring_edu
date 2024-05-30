@@ -455,23 +455,3 @@ index.html
 ...
 </body>
 ```
-
-## Back-end로 데이터 전송
-### Get 방식으로 전송(Query Parameter)
-\<a\> 태그의 ``href``속성으로 보내는 Query Parameter를 활용하기 위한 Thymeleaf의 표현식은 다음과 같다.
-
-```html
-<a th:href="@{uri(data1=value1,data2=value2)}">전송</a>
-```
-
-위 문장은 html로 렌더링 되면 ``<a href="uri?data1=value1&data2=value2">``로 변환되어 client로 전달된다.
-
-### Form을 활용한 전송
-일반적인 Form 태그를 활용하는 방식과 거의 동일하며, action 속성 대신 th:action 속성과 링크용 기호를 사용한다.
-
-```html
-<form th:action="@{uri}">
-  <input type="text" name="data1">
-  ...
-</form>
-```
