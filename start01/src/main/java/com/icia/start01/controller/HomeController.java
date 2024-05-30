@@ -82,7 +82,7 @@ public class HomeController {
     }
 
     @GetMapping("a_send")
-    public ModelAndView aTagDataSend(String num1,
+    public ModelAndView aTagDataSend(@RequestParam("num1") String num1,
                                      @RequestParam("num2") int num2){
         //String으로 받을 경우 @RequestParam 필요 없음
         //대신 형변환 필요.
@@ -95,9 +95,9 @@ public class HomeController {
     }
 
     @GetMapping("noneDtoSend")
-    public String noneDtoSend(String name,
+    public String noneDtoSend(@RequestParam("name") String name,
                               @RequestParam("age") int age,
-                              String address,
+                              @RequestParam("address") String address,
                               Model model){
         System.out.println("name : " + name);
         System.out.println("age : " + age);
