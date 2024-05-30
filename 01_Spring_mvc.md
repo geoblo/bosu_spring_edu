@@ -1,11 +1,11 @@
 # Spring MVC
 Spring MVC 동작 구조는 다음과 같다.
 
-![image](https://github.com/tiblo/spring_edu/assets/34559256/6222af47-93cd-43f3-a5df-7593938e90dd)
+![image](https://github.com/tiblo/spring_edu/assets/34559256/b2ee479d-0cf7-4080-9d1a-ce4bc2517207)
 
 사용자의 요청(Request)은 Web Server를 거쳐 Servlet Container의 Spring Module로 전달된다.
 
-![image](https://github.com/tiblo/spring_edu/assets/34559256/430a0ad5-8a20-4391-8d19-7648f87a9053)
+![image](https://github.com/tiblo/spring_edu/assets/34559256/6383d4bf-29df-467e-8c5c-4c77c5f377a4)
 
 내부 동작 과정은 다음과 같다.
 - DispatcherServlet은 HandlerMapping을 통해 해당 요청을 처리하는 Controller를 찾아 Request를 넘긴다.
