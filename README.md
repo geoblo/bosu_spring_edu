@@ -22,7 +22,8 @@ spring.thymeleaf.suffix=.html
 Spring Boot와 Thymeleaf, MyBatis를 활용한 Web 애플리케이션 개발
 
 ### 기본적인 웹 운영 형태
-![image](https://github.com/tiblo/spring_jpa_security/assets/34559256/4bb3749a-0849-4c8a-84c9-5493d4a377c9)
+![image](https://github.com/tiblo/spring_edu/assets/34559256/73223b0c-6525-4178-a3f1-0378340035f8)
+
 
 사용자는 웹 브라우저를 통해 서버에 요청(Request)을 전송하면 서버는 요청한 내용(자원, 데이터 등)을 처리하여 응답(Response)을 전송하는 구조.
 
