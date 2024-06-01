@@ -92,5 +92,3 @@ Tomcat과 같은 웹 서버를 앱에 포함하여 외부 웹 서버에 의존�
 	- MySQL 8.x.x
 
 
-### 개발 범위
-회원제 게시판 + Spring Security + JPA + Thymeleaf + Bootstrap
