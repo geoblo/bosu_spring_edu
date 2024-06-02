@@ -13,13 +13,13 @@ IDEA에서 프로젝트 생성
 ![image](https://github.com/tiblo/spring_edu/assets/34559256/e3fb90cc-7690-40aa-b82d-f9a877e576a3)
 
 ### 작성 항목
-- Name : ``board``
+- Name : ``start01``
 - Location : ``작업 폴더``
 - Language : Java
 - Type : Gradle - Groovy
 - Group : com.``icia``
-- Artifact : board
-- Package name : com.icia.board
+- Artifact : start01
+- Package name : com.icia.start01
 - JDK : 17
 - Java : 17
 - Packaging : Jar
