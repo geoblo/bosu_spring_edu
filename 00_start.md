@@ -36,11 +36,9 @@ IDEA에서 프로젝트 생성
   - Spring Web
 - Template Engines
   - Thymeleaf
-- Security
-  - Spring Security
 - SQL
-  - Spring Data JPA
-  - MySQL Driver
+  - MyBatis Framework
+  - H2 Driver
 
 선택 후 Create.
 
