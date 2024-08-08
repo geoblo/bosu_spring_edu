@@ -5,13 +5,13 @@ Thymeleaf의 주요 목표는 개발 워크플로우에 우아하고 자연스�
 Spring Boot에 포함된 기본 Template 엔진 중 하나로 프로젝트 생성 시 바로 추가하여 사용할 수 있음.
 
 ## 프로젝트 생성
-- Name : ``thymeleafproject``
+- Name : ``start01``
 - Location : ``작업 폴더``
 - Language : Java
 - Type : Gradle - Groovy
 - Group : com.``icia``
-- Artifact : thymeleafproject
-- Package name : com.icia.thymeleafproject
+- Artifact : start01
+- Package name : com.icia.start01
 - JDK : 17
 - Java : 17
 - Packaging : Jar
