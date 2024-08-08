@@ -36,9 +36,6 @@ IDEA에서 프로젝트 생성
   - Spring Web
 - Template Engines
   - Thymeleaf
-- SQL
-  - MyBatis Framework
-  - H2 Driver
 
 선택 후 Create.
 
@@ -115,12 +112,4 @@ index.html
 - 브라우저로 실행
 
 ![image](https://github.com/tiblo/spring_edu/assets/34559256/e13c3bc2-b620-4963-8063-dd93d7d2f2c8)
-
-## Database 설정
-우측 상단의 ``Database`` 아이콘을 클릭
-
-![image](https://github.com/tiblo/spring_edu/assets/34559256/8b7a9bd3-792a-43c7-b661-eab2fede5018)
-
-![image](https://github.com/tiblo/spring_edu/assets/34559256/e4946688-2651-4ac4-aa9f-d33ea637a997)
-
 
