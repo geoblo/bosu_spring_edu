@@ -9,3 +9,7 @@ CREATE TABLE IF NOT EXISTS movietbl (
     m_synopsis varchar(2000) DEFAULT NULL,
     p_sysname varchar(50) DEFAULT NULL
 );
+
+CREATE OR REPLACE VIEW mlist AS
+SELECT * FROM movietbl
+ORDER BY m_code DESC;
