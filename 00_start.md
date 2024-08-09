@@ -50,13 +50,13 @@ IDEA에서 프로젝트 생성
 > resources 폴더 : 이미지, 스타일시트, 자바스크립트, HTML 페이지 작성.
 
 작성 내용
-- ‘board’에 Package 생성
+- ‘start01’에 Package 생성
   - controller
 - controller 패키지에 Java Class 생성
   - HomeController
 - static 폴더에 HTML file을 생성
   - index.html
-- BoardApplication 실행
+- Start01Application 실행
 
 ### Resources 폴더의 구성
 #### static 폴더
