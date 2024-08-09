@@ -84,8 +84,6 @@ public class HomeController {
     @GetMapping("a_send")
     public ModelAndView aTagDataSend(@RequestParam("num1") String num1,
                                      @RequestParam("num2") int num2){
-        //String으로 받을 경우 @RequestParam 필요 없음
-        //대신 형변환 필요.
         System.out.println("num1 : " + num1 + ", num2 : " + num2);
         ModelAndView mv = new ModelAndView();
         int n1 = Integer.parseInt(num1);
