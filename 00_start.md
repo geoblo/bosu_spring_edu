@@ -113,3 +113,41 @@ home.html
 
 ![image](https://github.com/tiblo/spring_edu/assets/34559256/e13c3bc2-b620-4963-8063-dd93d7d2f2c8)
 
+
+## 페이지 이동
+
+페이지의 이동은 반드시 controller를 거쳐야한다.
+
+home.html에 다음 코드를 추가한다.
+
+```html
+<p>처음으로 보이는 페이지</p>
+<hr />
+<a href="intro">소개</a>
+```
+
+intro.html
+
+```html
+<h1>강의 소개</h1>
+<h2>프로젝트 기반의 Java Web 애플리케이션 개발</h2>
+<p>
+  본 강의는 Spring Boot와 Thymeleaf, MyBatis를 활용한 Web 애플리케이션 개발 관련
+  내용을 수업합니다.
+</p>
+<h2>강사 소개</h2>
+<p>박종일(인천일보아카데미)</p>
+<hr />
+<a th:href="@{t_output}">thymelead 출력 ></a>
+```
+
+HomeController.java
+
+```java
+    @GetMapping("intro")
+    public String intro(Model model){
+        Date now = new Date();
+        model.addAttribute("data", now);
+        return "intro";
+    }
+```
