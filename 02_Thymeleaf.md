@@ -49,11 +49,11 @@ html 태그 안에 th 문법을 추가
 - th:href - 링크 연결 속성. a 태그에서 사용
 - th:action - form 태그의 action 속성 대신 사용
 
-index.html
+home.html
 ```html
 <p>처음으로 보이는 페이지</p>
 <hr>
-<a th:href="@{t_output}">타임리프 출력</a>
+<a href="intro">타임리프 출력</a>
 </body>
 ```
 HomeController.java
@@ -61,7 +61,7 @@ HomeController.java
     @GetMapping("/")
     public String home(){
         log.info("home()");
-        return "index";
+        return "home";
     }
 ```
 
