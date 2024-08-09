@@ -81,12 +81,12 @@ HomeController.java
 public class HomeController {
     @GetMapping("/")
     public String home(){
-        return "index.html";
+        return "home";
     }
 }
 ```
 
-index.html
+home.html
 ```html
 <!DOCTYPE html>
 <html lang="ko">
