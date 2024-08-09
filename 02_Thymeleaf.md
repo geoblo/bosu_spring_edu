@@ -49,23 +49,22 @@ html 태그 안에 th 문법을 추가
 - th:href - 링크 연결 속성. a 태그에서 사용
 - th:action - form 태그의 action 속성 대신 사용
 
-home.html
+intro.html
 ```html
-<p>처음으로 보이는 페이지</p>
-<hr>
-<a href="intro">타임리프 출력</a>
-</body>
+<hr />
+<a th:href="@{t_output}">타임리프 출력</a>
 ```
 HomeController.java
 ```java
-    @GetMapping("/")
-    public String home(){
-        log.info("home()");
-        return "home";
+    @GetMapping("t_output")
+    public ModelAndView thymeleafOutput(){
+        log.info("thymeleafOutput()");
+        mv.setViewName("t_output");
+        return mv;
     }
 ```
 
-Thymeleaf를 사용하는 경우 ``return``문에 작성하는 파일명은 <b>확장자</b>를 제외하고 작성한다.
+Thymeleaf를 사용하는 경우 `setViewName`문에 작성하는 파일명은 <b>확장자</b>를 제외하고 작성한다.
 
 #### 데이터 출력
 - innerText로 출력
