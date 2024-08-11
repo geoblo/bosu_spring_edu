@@ -26,7 +26,7 @@ Data Source 설정
 - Password : 12341234
 - URL : jdbc:h2:~/db/moviedb
 - URL을 변경하면 Name과 Path가 함께 변경됨
-- Test Connection을 수행하면‘C:/users/사용자명/’에 H2 DB 파일이 생성됨
+- Test Connection을 수행하면 ``C:/users/사용자명/``에 H2용 폴더와 DB 파일이 생성됨
 - URL은 application.properties에서 사용
 
 ![image](https://github.com/user-attachments/assets/9c15f832-66c0-4357-b7de-7a6557c2e492)
